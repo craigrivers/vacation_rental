@@ -1,0 +1,10 @@
+<h1>Outdoors</h1>
+<div class="photo-gallery">
+  <div class="row">
+    <div class="photo" *ngFor="let image of images">
+      <img [src]="imagePath + image" [alt]="image">
+    </div>
+  </div>
+</div>
+
+  

@@ -1,0 +1,21 @@
+<!---
+<h1>Main Level</h1>
+<div class="photo-gallery">
+  <div class="row" *ngFor="let row of images | chunk: 3">
+    <div class="photo" *ngFor="let image of row">
+      <img [src]="imagePath + image.filename" [alt]="image.description">
+      <p class="description">{{ image.description }}</p>
+    </div>
+  </div>
+</div>
+-->
+
+<h1>Main Level</h1>
+<div class="photo-gallery">
+  <div class="row">
+    <div class="photo" *ngFor="let image of images">
+      <img [src]="imagePath + image.filename" [alt]="image.description">
+      <p class="description">{{ image.description }}</p>
+    </div>
+  </div>
+</div>

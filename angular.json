@@ -21,10 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -63,9 +60,12 @@
             },
             "development": {
               "buildTarget": "vacation_rental:build:development"
-            }
+            } 
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "proxyConfig": "src/proxy.conf.json"
+             }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
