@@ -12,11 +12,6 @@
       <li><a routerLink="/outdoor-photos">Outdoor</a></li>
     </ul>
   </nav>
-  <ul>
-      <li *ngFor="let event of events">
-        <strong>{{ event.summary }}</strong>: {{ event.start }} - {{ event.end }}
-      </li>
-  </ul>
 
   <main>
     <router-outlet></router-outlet>

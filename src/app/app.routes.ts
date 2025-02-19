@@ -16,7 +16,7 @@ export const routes: Routes = [
   */
     { path: 'home', component: HomeComponent },
     { path: 'availability', component: AvailabilityComponent },
-    { path: 'app-house-details', component: HouseDetailsComponent },
+    { path: 'house-details', component: HouseDetailsComponent },
     { path: 'pricing-terms', component: PricingTermsComponent },
     { path: 'local-resources', component: LocalResourcesComponent },
     { path: 'location', component: LocationComponent },
