@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class MainLevelPhotosComponent {
-  title = 'monticello-vacation-rental';
+  title = 'Main Level';
 
   // List of all image filenames
   images: { filename: string; description: string }[] = [

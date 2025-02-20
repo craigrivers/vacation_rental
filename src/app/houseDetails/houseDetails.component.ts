@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-house-details',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './houseDetails.component.html'
+  templateUrl: './houseDetails.component.html',
+  styleUrl: './houseDetails.component.css'
 })
 export class HouseDetailsComponent {}

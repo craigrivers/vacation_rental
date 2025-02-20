@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule]
 })
 export class OutdoorPhotosComponent {
-  title = 'monticello-vacation-rental';
+  title = 'Outdoors';
 
   // List of all image filenames
   images: string[] = [
