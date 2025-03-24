@@ -12,11 +12,14 @@ export class LowerLevelPhotosComponent {
 
   // List of all image filenames
   images: { filename: string; description: string }[] = [
-    { filename: 'BedroomQueenBed.jpg', description: 'Queen Size Bed.' },
+    { filename: 'BasementBedRm1.JPG', description: 'Queen Size Bed' },
     { filename: 'BasementBedroom_2025.jpg', description: 'Full and Queen size beds' },
     { filename: 'JackAndJillBath.jpg', description: 'Shared Bathroom' },
     { filename: 'JackandJillShower.jpg', description: 'Shower in shared bathroom' },
-    { filename: 'bar.jpg', description: 'Bar and pool table' },
+    { filename: 'RecRoomPoolTablePongTable.JPG', description: 'Pool table & Beer Pong table' },
+    { filename: 'PoolTable.JPG', description: 'Bar & ice machine' },
+    { filename: 'RecRmAirHockeyHotTub.JPG', description: 'Air hockey, foozball and hot tub' },
+    { filename: 'RecRmAirHockeyCardTable.JPG', description: 'Foozball, Air hockey, and card table' },
     { filename: 'BathroomByHotTub.jpg', description: 'Bathroom across from hot tub' },
   ];
 
