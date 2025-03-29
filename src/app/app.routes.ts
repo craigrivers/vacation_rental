@@ -11,6 +11,7 @@ import { LowerLevelPhotosComponent } from './lowerLevelPhotos/lowerLevelPhotos.c
 import { MainLevelPhotosComponent } from './mainLevelPhotos/mainLevelPhotos.component';
 
 export const routes: Routes = [
+  { path: '', component: HomeComponent },
   /*  
   {  path: '', redirectTo: '/home', pathMatch: 'full' },
   */
