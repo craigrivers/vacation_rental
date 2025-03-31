@@ -36,3 +36,31 @@ main {
   flex: 1;
   padding: 20px;
 }
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .topNav {
+    width: 250px;
+    min-height: 100vh;
+    padding: 20px;
+  }
+
+  .topNav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .topNav li {
+    margin-bottom: 10px;
+  }
+
+  main {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+}
