@@ -26,7 +26,16 @@ export class HomeComponent implements OnInit, OnDestroy {
     { src: 'assets/main_level_images/backbathroomshower.jpg', alt: 'Shower in ensuite bathroom' },
     { src: 'assets/main_level_images/FirstFloorBedroomOwnerSuite.jpg', alt: 'Owners suite with an ensuite bathroom.' },
     { src: 'assets/main_level_images/ownersSuiteShower.jpg', alt: 'Shower in in ensuite bathroom.' },
-    { src: 'assets/main_level_images/DeckOffKitchen.jpg', alt: 'Beautiful deck right off the kitchen.' }
+    { src: 'assets/main_level_images/DeckOffKitchen.jpg', alt: 'Beautiful deck right off the kitchen.' },
+    { src: 'assets/lower_level_images/BasementBedRm1.JPG', alt: 'Queen Size Bed' },
+    { src: 'assets/lower_level_images/BasementBedroom_2025.jpg', alt: 'Full and Queen size beds' },
+    { src: 'assets/lower_level_images/JackAndJillBath.jpg', alt: 'Shared Bathroom' },
+    { src: 'assets/lower_level_images/JackandJillShower.jpg', alt: 'Shower in shared bathroom' },
+    { src: 'assets/lower_level_images/RecRoomPoolTablePongTable.JPG', alt: 'Pool table & Beer Pong table' },
+    { src: 'assets/lower_level_images/PoolTable.JPG', alt: 'Bar & ice machine' },
+    { src: 'assets/lower_level_images/RecRmAirHockeyHotTub.JPG', alt: 'Air hockey, foozball and hot tub' },
+    { src: 'assets/lower_level_images/RecRmAirHockeyCardTable.JPG', alt: 'Foozball, Air hockey, and card table' },
+    { src: 'assets/lower_level_images/BathroomByHotTub.jpg', alt: 'Bathroom across from hot tub' }
   ];
 
   visibleThumbnails: any[] = [];
