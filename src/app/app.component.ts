@@ -3,19 +3,27 @@ import { RouterOutlet, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import * as ical from 'ical.js';
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink],
+  imports: [RouterOutlet, RouterLink, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
   events: any[] = [];
+  menuOpen = false;
 
   ngOnInit() {
    //this.loadCalendarFromFile();
+  }
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+    const nav = document.querySelector('.topNav');
+    if (nav) {
+      nav.classList.toggle('open');
+    }
   }
 
   loadCalendarFromFile() {
