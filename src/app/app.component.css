@@ -55,6 +55,7 @@ main {
     left: -250px;
     transition: left 0.3s ease;
     background-color: #2c3e50;
+    z-index: 1000;
   }
 
   .topNav.open {
@@ -62,7 +63,7 @@ main {
   }
 
   .mobileHeader {
-    display: flex;  /* Show only on mobile */
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -71,7 +72,7 @@ main {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1000;
   }
 
   .siteTitle {
