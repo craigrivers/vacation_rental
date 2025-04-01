@@ -1,9 +1,25 @@
 <h1>Home</h1>
 
 <div class="container">
-  <div class="photo">
-    <img src="assets/outdoor_images/back_exterior.jpg" alt="Exterior">
+  <div class="slideshow">
+    <button class="nav-arrow prev" (click)="previousSlide()">&#8249;</button>
+    <img *ngFor="let image of images; let i = index" 
+         class="slide" 
+         [src]="image.src" 
+         [alt]="image.alt"
+         [class.active]="currentSlide === i">
+    <button class="nav-arrow next" (click)="nextSlide()">&#8250;</button>
   </div>
+  
+  <div class="carousel">
+    <img *ngFor="let image of visibleThumbnails; let i = index"
+         class="thumbnail"
+         [src]="image.src"
+         [alt]="image.alt"
+         [class.active]="currentSlide === getActualIndex(i)"
+         (click)="selectSlide(getActualIndex(i))">
+  </div>
+
   <p>
     Rent a wonderful, private getaway with a group of friends and family for the weekend, a full week, or even a month-long vacation. 
     Our spacious home in the country is ideal for relaxing and enjoying the company of friends and family. The house has 5 bedrooms, 
