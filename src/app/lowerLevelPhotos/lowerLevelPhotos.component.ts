@@ -20,7 +20,7 @@ export class LowerLevelPhotosComponent {
     { filename: 'PoolTable.JPG', description: 'Bar & ice machine' },
     { filename: 'RecRmAirHockeyHotTub.JPG', description: 'Air hockey, foozball and hot tub' },
     { filename: 'RecRmAirHockeyCardTable.JPG', description: 'Foozball, Air hockey, and card table' },
-    { filename: 'BathroomByHotTub.jpg', description: 'Bathroom across from hot tub' },
+    { filename: 'BathroomByHotTub.png', description: 'Bathroom across from hot tub' },
   ];
 
   // Base path to images

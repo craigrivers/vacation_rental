@@ -18,7 +18,7 @@ export class MainLevelPhotosComponent {
     { filename: 'Den.jpg', description: 'Cozy den area with pullout couch.' },
     { filename: 'FamilyRmFacingTV.JPG', description: 'Large family room with comfortable seating.' },
     { filename: 'FirstFloorBedroomHallway.jpg', description: 'Hallway bedroom with queen size bed.' },
-    { filename: 'HallwayBathroom.jpg', description: 'Hallway Bathroom.' },
+    { filename: 'HallwayBathroom.jpeg', description: 'Hallway Bathroom.' },
     { filename: 'BackBedroom_2025.jpg', description: 'Owner’s suite with an ensuite bathroom.' },
     { filename: 'backbathroomshower.jpg', description: 'Shower in ensuite bathroom' },
     { filename: 'FirstFloorBedroomOwnerSuite.jpg', description: 'Owner’s suite with an ensuite bathroom.' },
